@@ -1,1 +1,10 @@
+---
+title: "Lab 12"
+author: "Ellya Gholmieh"
+output: 
+    html_document:
+        toc: TRUE
+        toc_float: TRUE
+---
 
+This is my PM566 Lab 12.
