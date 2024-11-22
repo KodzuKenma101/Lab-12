@@ -18,7 +18,7 @@ library(plotly)
 library(DT)
 library(knitr)
 
-source("C:/Users/ellya/PM566-lab12-example/process_COVID_data.R")
+source("process_COVID_data.R")
 
 opts_chunk$set(
   warning = FALSE,
@@ -32,7 +32,7 @@ opts_chunk$set(
   out.width = "700px")
 ```
 ```{r, message = FALSE, echo = FALSE}
-source("C:/Users/ellya/PM566-lab12-example/process_COVID_data.R")
+source("process_COVID_data.R")
 p1_scatter <- cv_states_today %>% 
   plot_ly(x = ~pop_density, y = ~deathsper100k,
           type = 'scatter', mode = 'markers', color = ~state,
